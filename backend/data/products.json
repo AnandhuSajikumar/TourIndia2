@@ -1,0 +1,2118 @@
+[
+  {
+    "id": "jh_bamboo_craft_1",
+    "name": "Bamboo Handcrafted Basket",
+    "price": 350,
+    "state": "Jharkhand",
+    "image": "BambooHandcraftedBasket.jpg",
+    "description": "Traditional handcrafted bamboo basket made by tribal artisans of Jharkhand.",
+    "category": "craft"
+  },
+  {
+    "id": "jh_soyabean_art_2",
+    "name": "Tribal Sohrai Painting",
+    "price": 700,
+    "state": "Jharkhand",
+    "image": "TribalSohraiPainting.png",
+    "description": "Authentic Sohrai wall painting showcasing Jharkhand's tribal art motifs.",
+    "category": "craft"
+  },
+  {
+    "id": "jh_metal_craft_3",
+    "name": "Dhokra Brass Figurine",
+    "price": 950,
+    "state": "Jharkhand",
+    "image": "DhokraBrassFigurine.jpg",
+    "description": "Handcrafted Dhokra (Bell Metal) tribal figurine using a 4000-year-old wax-casting technique.",
+    "category": "craft"
+  },
+  {
+    "id": "jh_tasar_silk_4",
+    "name": "Pure Tasar Silk Scarf",
+    "price": 350,
+    "state": "Jharkhand",
+    "image": "scarf.jpg",
+    "description": "Premium Tasar (Tussar) silk scarf produced locally in Jharkhand.",
+    "category": "handloom"
+  },
+  {
+    "id": "jh_soheri_plate_5",
+    "name": "Sohrai Painted Decorative Plate",
+    "price": 300,
+    "state": "Jharkhand",
+    "image": "plate.jpeg",
+    "description": "Decorative mud plate painted with traditional Sohrai tribal art.",
+    "category": "craft"
+  },
+  {
+    "id": "jh_bamboo_lamp_6",
+    "name": "Bamboo Table Lamp",
+    "price": 400,
+    "state": "Jharkhand",
+    "image": "lamp.jpeg",
+    "description": "Eco-friendly handcrafted bamboo lamp made by local artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "jh_handloom_bag_7",
+    "name": "Handwoven Tribal Jute Bag",
+    "price": 250,
+    "state": "Jharkhand",
+    "image": "jutebag.jpg",
+    "description": "Durable jute bag with ethnic tribal designs, made by rural women artisans.",
+    "category": "textile"
+  },
+  {
+    "id": "jh_pearl_necklace_8",
+    "name": "Lac Bead Necklace",
+    "price": 200,
+    "state": "Jharkhand",
+    "image": "LacBeadNecklace.jpeg",
+    "description": "Colorful lac bead jewelry crafted in Jharkhand’s artisan clusters.",
+    "category": "craft"
+  },
+  {
+    "id": "jh_bamboo_mug_9",
+    "name": "Eco Bamboo Drinking Mug",
+    "price": 180,
+    "state": "Jharkhand",
+    "image": "EcoBambooDrinkingMug.jpg",
+    "description": "Reusable eco-friendly bamboo mug sourced from tribal bamboo artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "jh_tasar_saree_10",
+    "name": "Authentic Tasar Silk Saree",
+    "price": 3200,
+    "state": "Jharkhand",
+    "image": "tussar-silk-saree.jpg",
+    "description": "Rich Tasar silk saree woven by Jharkhand's traditional weavers.",
+    "category": "handloom"
+  },
+
+  {
+    "id": "andaman-shell-necklace",
+    "name": "Seashell Necklace",
+    "price": 250,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Handcrafted necklace made from ethically collected seashells."
+  },
+  {
+    "id": "andaman-wood-carving",
+    "name": "Nicobari Wood Carving",
+    "price": 850,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Traditional carved wooden figures representing tribal art."
+  },
+  {
+    "id": "andaman-coconut-shell-bowl",
+    "name": "Coconut Shell Bowl",
+    "price": 300,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Eco-friendly handmade bowl carved from coconut shells."
+  },
+  {
+    "id": "andaman-cane-basket",
+    "name": "Handwoven Cane Basket",
+    "price": 450,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Lightweight basket made by indigenous artisans."
+  },
+  {
+    "id": "andaman-pearl-earrings",
+    "name": "Andaman Pearl Earrings",
+    "price": 1200,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Beautiful earrings crafted with natural sea pearls."
+  },
+  {
+    "id": "andaman-shell-showpiece",
+    "name": "Shell Decorative Showpiece",
+    "price": 350,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Premium decorative showpiece made from polished shells."
+  },
+  {
+    "id": "andaman-coral-jewelry",
+    "name": "Coral Inspired Jewelry Set",
+    "price": 1400,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Coral-style jewelry set (synthetic coral, eco-safe)."
+  },
+  {
+    "id": "andaman-bamboo-lamp",
+    "name": "Bamboo Table Lamp",
+    "price": 900,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Handcrafted bamboo lamp inspired by tribal design."
+  },
+  {
+    "id": "andaman-shell-windchime",
+    "name": "Shell Wind Chime",
+    "price": 320,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Soothing windchime created using polished seashells."
+  },
+  {
+    "id": "andaman-jute-bag",
+    "name": "Andaman Eco-Friendly Jute Bag",
+    "price": 280,
+    "state": "Andaman and Nicobar Islands",
+    "image": "",
+    "description": "Handmade jute bag featuring coastal island patterns."
+  },
+  {
+    "id": "ap_kalamkari_saree_01",
+    "name": "Handcrafted Kalamkari Saree",
+    "price": 2500,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Traditional Kalamkari saree hand-painted with natural dyes.",
+    "category": "handloom"
+  },
+  {
+    "id": "ap_ettikoppaka_toys_02",
+    "name": "Ettikoppaka Lacquered Toy Set",
+    "price": 750,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Eco-friendly wooden toys made using natural lacquer.",
+    "category": "craft"
+  },
+  {
+    "id": "ap_kondapalli_bommalu_03",
+    "name": "Kondapalli Bommalu",
+    "price": 950,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Handmade wooden figurines crafted in Kondapalli village.",
+    "category": "craft"
+  },
+  {
+    "id": "ap_mangalgiri_cotton_04",
+    "name": "Mangalgiri Cotton Dress Material",
+    "price": 1800,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Soft Mangalgiri cotton with unique Nizam border weave.",
+    "category": "textile"
+  },
+  {
+    "id": "ap_araku_coffee_05",
+    "name": "Premium Araku Coffee Pack",
+    "price": 450,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Organic coffee grown by tribal farmers in Araku Valley.",
+    "category": "local food"
+  },
+  {
+    "id": "ap_uppada_silk_06",
+    "name": "Uppada Silk Dupatta",
+    "price": 1600,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Elegant Uppada silk dupatta woven using traditional jamdani technique.",
+    "category": "handloom"
+  },
+  {
+    "id": "ap_bobbatlu_sweets_07",
+    "name": "Andhra Bobbatlu Sweet Pack",
+    "price": 320,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Traditional sweet prepared with dal and ghee, popular in coastal AP.",
+    "category": "local food"
+  },
+  {
+    "id": "ap_bidri_art_08",
+    "name": "Bidri Art Decorative Plate",
+    "price": 2200,
+    "state": "Andhra Pradesh",
+    "image": "",
+    "description": "Intricate metal craft inspired by Persian artwork.",
+    "category": "craft"
+  },
+  {
+    "id": "ar_adi_handwoven_shawl_01",
+    "name": "Adi Tribe Handwoven Shawl",
+    "price": 1500,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Traditional shawl woven by the Adi tribe using natural fibers.",
+    "category": "handloom"
+  },
+  {
+    "id": "ar_apong_rice_beer_02",
+    "name": "Apong Rice Beer Pack",
+    "price": 450,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Traditional homemade rice beer of the tribes of Arunachal Pradesh.",
+    "category": "local food"
+  },
+  {
+    "id": "ar_bamboo_craft_basket_03",
+    "name": "Handmade Bamboo Basket",
+    "price": 350,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Eco-friendly bamboo basket crafted by tribal artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "ar_thangka_art_04",
+    "name": "Thangka Buddhist Painting",
+    "price": 2800,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Traditional Tibetan-style painting depicting Buddhist deities.",
+    "category": "craft"
+  },
+  {
+    "id": "ar_donkey_meat_pickles_05",
+    "name": "Tribal Smoked Meat Pickle",
+    "price": 420,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Authentic tribal smoked meat pickle with local herbs.",
+    "category": "local food"
+  },
+  {
+    "id": "ar_mizo_style_beads_06",
+    "name": "Tribal Beaded Necklace",
+    "price": 600,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Colorful handcrafted necklace made using tribal beadwork techniques.",
+    "category": "craft"
+  },
+  {
+    "id": "ar_monpa_woolen_cap_07",
+    "name": "Monpa Woolen Cap",
+    "price": 500,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Warm woolen cap woven by the Monpa community of Tawang.",
+    "category": "handloom"
+  },
+  {
+    "id": "ar_bamboo_mats_08",
+    "name": "Bamboo Floor Mat",
+    "price": 700,
+    "state": "Arunachal Pradesh",
+    "image": "",
+    "description": "Durable bamboo mat ideal for home decor and picnics.",
+    "category": "craft"
+  },
+  {
+    "id": "as_muga_silk_saree_01",
+    "name": "Authentic Muga Silk Saree",
+    "price": 9500,
+    "state": "Assam",
+    "image": "",
+    "description": "Made from golden Muga silk unique to Assam.",
+    "category": "handloom"
+  },
+  {
+    "id": "as_assam_tea_pack_02",
+    "name": "Premium Assam Tea Pack",
+    "price": 450,
+    "state": "Assam",
+    "image": "",
+    "description": "Strong CTC tea sourced directly from Dibrugarh estates.",
+    "category": "local food"
+  },
+  {
+    "id": "as_bamboo_craft_03",
+    "name": "Assam Bamboo Craft Basket",
+    "price": 350,
+    "state": "Assam",
+    "image": "",
+    "description": "Traditional handcrafted bamboo basket made by local artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "as_gamosa_traditional_04",
+    "name": "Traditional Assamese Gamosa",
+    "price": 150,
+    "state": "Assam",
+    "image": "",
+    "description": "Symbol of respect in Assamese culture, handwoven from cotton.",
+    "category": "handloom"
+  },
+  {
+    "id": "as_terracotta_mask_05",
+    "name": "Majuli Terracotta Mask",
+    "price": 600,
+    "state": "Assam",
+    "image": "",
+    "description": "Traditional handcrafted masks used in Bhaona performances.",
+    "category": "craft"
+  },
+  {
+    "id": "as_pitha_sweet_pack_06",
+    "name": "Assamese Pitha Sweet Pack",
+    "price": 220,
+    "state": "Assam",
+    "image": "",
+    "description": "Traditional Bihu sweet delicacy made from rice flour.",
+    "category": "local food"
+  },
+  {
+    "id": "as_cane_hat_07",
+    "name": "Assamese Japi Cane Hat",
+    "price": 550,
+    "state": "Assam",
+    "image": "",
+    "description": "Decorative handmade Japi, a traditional Assamese sunshade.",
+    "category": "craft"
+  },
+  {
+    "id": "as_rice_beer_apong_08",
+    "name": "Traditional Apong Rice Beer",
+    "price": 300,
+    "state": "Assam",
+    "image": "",
+    "description": "Fermented rice drink prepared by the Mishing tribe.",
+    "category": "local food"
+  },
+  {
+    "id": "br_madhubani_art_01",
+    "name": "Madhubani Painting",
+    "price": 1200,
+    "state": "Bihar",
+    "image": "",
+    "description": "Traditional Mithila artwork hand-painted by rural women.",
+    "category": "craft"
+  },
+  {
+    "id": "br_tilkut_pack_02",
+    "name": "Tilkut Sweet Pack",
+    "price": 280,
+    "state": "Bihar",
+    "image": "",
+    "description": "Famous Gaya sweet made from sesame and jaggery.",
+    "category": "local food"
+  },
+  {
+    "id": "br_bhagalpuri_silk_scarf_03",
+    "name": "Bhagalpuri Silk Scarf",
+    "price": 850,
+    "state": "Bihar",
+    "image": "",
+    "description": "Handwoven Tussar silk scarf from Bhagalpur.",
+    "category": "handloom"
+  },
+  {
+    "id": "br_sikki_craft_box_04",
+    "name": "Sikki Grass Craft Box",
+    "price": 300,
+    "state": "Bihar",
+    "image": "",
+    "description": "Eco-friendly decorative box made from golden Sikki grass.",
+    "category": "craft"
+  },
+  {
+    "id": "br_litti_chokha_mix_05",
+    "name": "Litti Chokha Ready Mix",
+    "price": 150,
+    "state": "Bihar",
+    "image": "",
+    "description": "Instant mix to prepare Bihar’s iconic Litti Chokha.",
+    "category": "local food"
+  },
+  {
+    "id": "br_makhana_premium_06",
+    "name": "Premium Makhana",
+    "price": 320,
+    "state": "Bihar",
+    "image": "",
+    "description": "High-quality fox nuts sourced from Mithila region.",
+    "category": "local food"
+  },
+  {
+    "id": "br_tussar_saree_07",
+    "name": "Tussar Silk Saree",
+    "price": 4500,
+    "state": "Bihar",
+    "image": "",
+    "description": "Elegant saree made from pure Tussar silk.",
+    "category": "handloom"
+  },
+  {
+    "id": "br_bamboo_craft_basket_08",
+    "name": "Handmade Bamboo Basket",
+    "price": 250,
+    "state": "Bihar",
+    "image": "",
+    "description": "Durable handmade bamboo basket crafted by local artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "cg_dhokra_art_01",
+    "name": "Bastar Dhokra Art Statue",
+    "price": 1500,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Handcrafted metal figurine made using ancient lost-wax technique.",
+    "category": "craft"
+  },
+  {
+    "id": "cg_bastar_jewelry_02",
+    "name": "Tribal Bastar Jewelry Set",
+    "price": 700,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Traditional handcrafted jewelry made by Bastar tribes.",
+    "category": "craft"
+  },
+  {
+    "id": "cg_kosa_silk_saree_03",
+    "name": "Kosa Silk Saree",
+    "price": 4200,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Handwoven pure Kosa silk saree from Champa region.",
+    "category": "handloom"
+  },
+  {
+    "id": "cg_handmade_bamboo_box_04",
+    "name": "Handmade Bamboo Storage Box",
+    "price": 350,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Eco-friendly bamboo box crafted by rural artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "cg_tribal_mask_05",
+    "name": "Bastar Tribal Mask",
+    "price": 900,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Decorative tribal wooden mask representing Bastar culture.",
+    "category": "craft"
+  },
+  {
+    "id": "cg_chila_mix_06",
+    "name": "Chila Mix Pack",
+    "price": 120,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Instant mix to prepare traditional Chhattisgarhi Chila.",
+    "category": "local food"
+  },
+  {
+    "id": "cg_tikhur_barfi_07",
+    "name": "Tikhur Barfi Pack",
+    "price": 180,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Sweet delicacy made from arrowroot flour (Tikhur).",
+    "category": "local food"
+  },
+  {
+    "id": "cg_bamboo_craft_basket_08",
+    "name": "Bamboo Utility Basket",
+    "price": 250,
+    "state": "Chhattisgarh",
+    "image": "",
+    "description": "Durable handwoven basket used by local tribes.",
+    "category": "craft"
+  },
+  {
+    "id": "go_cashew_01",
+    "name": "Premium Goan Cashews",
+    "price": 450,
+    "state": "Goa",
+    "image": "",
+    "description": "High-quality roasted cashews sourced from local farms.",
+    "category": "local food"
+  },
+  {
+    "id": "go_feni_02",
+    "name": "Traditional Cashew Feni",
+    "price": 600,
+    "state": "Goa",
+    "image": "",
+    "description": "Locally distilled alcoholic beverage made from cashew apple.",
+    "category": "local food"
+  },
+  {
+    "id": "go_kokum_syrup_03",
+    "name": "Kokum Syrup Bottle",
+    "price": 150,
+    "state": "Goa",
+    "image": "",
+    "description": "Refreshing kokum concentrate used in drinks and curries.",
+    "category": "local food"
+  },
+  {
+    "id": "go_spice_mix_04",
+    "name": "Goan Spice Mix (Curry Masala)",
+    "price": 120,
+    "state": "Goa",
+    "image": "",
+    "description": "Authentic spice blend used in traditional Goan curries.",
+    "category": "local food"
+  },
+  {
+    "id": "go_shell_art_05",
+    "name": "Handcrafted Seashell Art Frame",
+    "price": 300,
+    "state": "Goa",
+    "image": "",
+    "description": "Decorative seashell artwork made by Goan artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "go_fish_pickle_06",
+    "name": "Goan Fish Pickle",
+    "price": 250,
+    "state": "Goa",
+    "image": "",
+    "description": "Authentic spicy Goan pickle made using dried fish.",
+    "category": "local food"
+  },
+  {
+    "id": "go_bebinca_07",
+    "name": "Traditional Goan Bebinca",
+    "price": 200,
+    "state": "Goa",
+    "image": "",
+    "description": "Layered dessert made from coconut milk, flour, and sugar.",
+    "category": "local food"
+  },
+  {
+    "id": "go_handloom_bag_08",
+    "name": "Goan Handloom Cotton Bag",
+    "price": 350,
+    "state": "Goa",
+    "image": "",
+    "description": "Eco-friendly handwoven bag made using Goan textile patterns.",
+    "category": "handloom"
+  },
+  {
+    "id": "gj_bandhani_01",
+    "name": "Kutch Bandhani Dupatta",
+    "price": 450,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Traditional tie-dye bandhani dupatta handcrafted in Kutch.",
+    "category": "handloom"
+  },
+  {
+    "id": "gj_patola_02",
+    "name": "Patola Silk Scarf",
+    "price": 900,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Patola-inspired silk scarf woven using double-ikat patterns.",
+    "category": "handloom"
+  },
+  {
+    "id": "gj_wooden_art_03",
+    "name": "Handcrafted Wooden Camel Statue",
+    "price": 300,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Decorative hand-carved wooden camel figurine from Kutch.",
+    "category": "craft"
+  },
+  {
+    "id": "gj_namkeen_04",
+    "name": "Gujarati Namkeen Pack",
+    "price": 180,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Assorted farsan snacks including gathiya and sev.",
+    "category": "local food"
+  },
+  {
+    "id": "gj_khadi_bag_05",
+    "name": "Khadi Handwoven Tote Bag",
+    "price": 350,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Eco-friendly khadi bag handcrafted by rural artisans.",
+    "category": "handloom"
+  },
+  {
+    "id": "gj_dryfruit_06",
+    "name": "Dry Fruit Kachori Box",
+    "price": 220,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Popular Gujarati snack stuffed with dry fruits and spices.",
+    "category": "local food"
+  },
+  {
+    "id": "gj_terracotta_07",
+    "name": "Terracotta Pottery Set",
+    "price": 400,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Beautiful clay decorative pots made in Saurashtra.",
+    "category": "craft"
+  },
+  {
+    "id": "gj_kutch_art_08",
+    "name": "Kutch Mud Mirror Art Frame",
+    "price": 500,
+    "state": "Gujarat",
+    "image": "",
+    "description": "Traditional Lippan artwork handcrafted with mud and mirrors.",
+    "category": "craft"
+  },
+  {
+    "id": "hr_phulkari_01",
+    "name": "Haryana Phulkari Dupatta",
+    "price": 650,
+    "state": "Haryana",
+    "image": "",
+    "description": "Traditional hand-embroidered Phulkari dupatta.",
+    "category": "handloom"
+  },
+  {
+    "id": "hr_juti_02",
+    "name": "Haryana Handcrafted Juti",
+    "price": 450,
+    "state": "Haryana",
+    "image": "",
+    "description": "Ethnic leather juti with traditional patterns.",
+    "category": "craft"
+  },
+  {
+    "id": "hr_mud_cup_03",
+    "name": "Clay Kulhad Tea Cups",
+    "price": 180,
+    "state": "Haryana",
+    "image": "",
+    "description": "Eco-friendly handmade clay kulhads.",
+    "category": "craft"
+  },
+  {
+    "id": "hr_gur_pack_04",
+    "name": "Organic Jaggery (Gur)",
+    "price": 200,
+    "state": "Haryana",
+    "image": "",
+    "description": "Farm-made jaggery sourced from Haryana sugarcane fields.",
+    "category": "local food"
+  },
+  {
+    "id": "hr_bajra_05",
+    "name": "Pearl Millet (Bajra) Pack",
+    "price": 160,
+    "state": "Haryana",
+    "image": "",
+    "description": "Authentic Haryana-grown bajra used for rotis.",
+    "category": "local food"
+  },
+  {
+    "id": "hr_wool_shawl_06",
+    "name": "Woollen Desi Shawl",
+    "price": 500,
+    "state": "Haryana",
+    "image": "",
+    "description": "Traditional warm shawl used in rural Haryana.",
+    "category": "handloom"
+  },
+  {
+    "id": "hr_bamboo_basket_07",
+    "name": "Handwoven Bamboo Basket",
+    "price": 250,
+    "state": "Haryana",
+    "image": "",
+    "description": "Durable handmade bamboo storage basket.",
+    "category": "craft"
+  },
+  {
+    "id": "hr_murrah_ghee_08",
+    "name": "Pure Murrah Buffalo Ghee",
+    "price": 650,
+    "state": "Haryana",
+    "image": "",
+    "description": "Pure ghee sourced from premium Murrah buffalo milk.",
+    "category": "local food"
+  },
+  {
+    "id": "hp_pashmina_01",
+    "name": "Handwoven Pashmina Shawl",
+    "price": 3200,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Premium soft Pashmina shawl handcrafted in Himachal.",
+    "category": "handloom"
+  },
+  {
+    "id": "hp_kullu_cap_02",
+    "name": "Kullu Woolen Cap",
+    "price": 250,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Iconic Himachali cap with traditional patterns.",
+    "category": "handloom"
+  },
+  {
+    "id": "hp_kangra_tea_03",
+    "name": "Organic Kangra Tea",
+    "price": 180,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Famous Himalayan tea known for unique aroma.",
+    "category": "local food"
+  },
+  {
+    "id": "hp_wool_blanket_04",
+    "name": "Pure Wool Blanket",
+    "price": 700,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Warm blanket woven from high-quality Himalayan wool.",
+    "category": "handloom"
+  },
+  {
+    "id": "hp_wood_carving_05",
+    "name": "Wooden Carved Idol",
+    "price": 450,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Hand-carved wooden art inspired by Himachali tradition.",
+    "category": "craft"
+  },
+  {
+    "id": "hp_gucchi_mushroom_06",
+    "name": "Dried Gucchi Mushrooms",
+    "price": 2500,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Rare wild mushrooms sourced from Himalayan forests.",
+    "category": "local food"
+  },
+  {
+    "id": "hp_trout_pickle_07",
+    "name": "Himalayan Trout Pickle",
+    "price": 300,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Traditional pickle made from fresh mountain trout.",
+    "category": "local food"
+  },
+  {
+    "id": "hp_bamboo_craft_08",
+    "name": "Handwoven Bamboo Basket",
+    "price": 220,
+    "state": "Himachal Pradesh",
+    "image": "",
+    "description": "Eco-friendly bamboo craft from local artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "ka_mysore_silk_01",
+    "name": "Mysore Pure Silk Saree",
+    "price": 5000,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Authentic Mysore silk saree known for durability and sheen.",
+    "category": "handloom"
+  },
+  {
+    "id": "ka_sandalwood_soap_02",
+    "name": "Original Sandalwood Soap",
+    "price": 80,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Made from real Mysore sandalwood extracts.",
+    "category": "local product"
+  },
+  {
+    "id": "ka_rosewood_art_03",
+    "name": "Rosewood Carved Elephant",
+    "price": 650,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Handcrafted rosewood decor from Mysore artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "ka_coorg_coffee_04",
+    "name": "Coorg Filter Coffee",
+    "price": 350,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Premium Arabica coffee grown in Coorg.",
+    "category": "local food"
+  },
+  {
+    "id": "ka_udupi_spices_05",
+    "name": "Udupi Spice Mix Pack",
+    "price": 120,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Traditional spice blends used in Udupi cuisine.",
+    "category": "local food"
+  },
+  {
+    "id": "ka_channapatna_toys_06",
+    "name": "Channapatna Wooden Toy",
+    "price": 300,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Eco-friendly lacquered toy made from softwood.",
+    "category": "craft"
+  },
+  {
+    "id": "ka_ilkal_saree_07",
+    "name": "Ilkal Saree",
+    "price": 900,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Traditional saree made using local weaving techniques.",
+    "category": "handloom"
+  },
+  {
+    "id": "ka_sandal_powder_08",
+    "name": "Mysore Sandal Powder",
+    "price": 150,
+    "state": "Karnataka",
+    "image": "",
+    "description": "Finely ground sandalwood powder used for skincare and rituals.",
+    "category": "local product"
+  },
+  {
+    "id": "kl_munnar_tea_01",
+    "name": "Premium Munnar Tea",
+    "price": 180,
+    "state": "Kerala",
+    "image": "",
+    "description": "High-quality handpicked tea from the Munnar hills.",
+    "category": "local food"
+  },
+  {
+    "id": "kl_coconut_oil_02",
+    "name": "Cold-Pressed Coconut Oil",
+    "price": 250,
+    "state": "Kerala",
+    "image": "",
+    "description": "Pure edible coconut oil sourced from local farms.",
+    "category": "local product"
+  },
+  {
+    "id": "kl_kerala_saree_03",
+    "name": "Kerala Kasavu Saree",
+    "price": 850,
+    "state": "Kerala",
+    "image": "",
+    "description": "Traditional cream-colored saree with golden border.",
+    "category": "handloom"
+  },
+  {
+    "id": "kl_aromatic_spices_04",
+    "name": "Kerala Spice Combo",
+    "price": 300,
+    "state": "Kerala",
+    "image": "",
+    "description": "Pack of cardamom, cloves, cinnamon and pepper.",
+    "category": "local food"
+  },
+  {
+    "id": "kl_coir_craft_05",
+    "name": "Handcrafted Coir Mat",
+    "price": 350,
+    "state": "Kerala",
+    "image": "",
+    "description": "Eco-friendly coir-based home decor.",
+    "category": "craft"
+  },
+  {
+    "id": "kl_elephant_figurine_06",
+    "name": "Wooden Elephant Figurine",
+    "price": 500,
+    "state": "Kerala",
+    "image": "",
+    "description": "Traditional Kerala-style wooden carved elephant.",
+    "category": "craft"
+  },
+  {
+    "id": "kl_ayurveda_soap_07",
+    "name": "Ayurvedic Herbal Soap",
+    "price": 70,
+    "state": "Kerala",
+    "image": "",
+    "description": "Natural herbal soap enriched with ayurvedic ingredients.",
+    "category": "local product"
+  },
+  {
+    "id": "kl_banana_chips_08",
+    "name": "Authentic Banana Chips",
+    "price": 120,
+    "state": "Kerala",
+    "image": "",
+    "description": "Crispy Nendran banana chips fried in coconut oil.",
+    "category": "local food"
+  },
+  {
+    "id": "mp_maheshwari_saree_01",
+    "name": "Maheshwari Handloom Saree",
+    "price": 1400,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "Traditional Maheshwari saree woven with silk-cotton blend.",
+    "category": "handloom"
+  },
+  {
+    "id": "mp_chanderi_saree_02",
+    "name": "Chanderi Silk Saree",
+    "price": 2800,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "Elegant lightweight saree crafted by Chanderi weavers.",
+    "category": "handloom"
+  },
+  {
+    "id": "mp_gwalior_pepper_03",
+    "name": "Gwalior Black Pepper",
+    "price": 120,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "High-quality pepper sourced from tribal farms.",
+    "category": "local food"
+  },
+  {
+    "id": "mp_pital_craft_04",
+    "name": "Brass Handicraft Bowl",
+    "price": 350,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "Traditional brass craft made by local artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "mp_tribal_art_05",
+    "name": "Gond Tribal Art Painting",
+    "price": 700,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "Hand-painted artwork representing Gond tribal culture.",
+    "category": "craft"
+  },
+  {
+    "id": "mp_khajuraho_figurine_06",
+    "name": "Khajuraho Stone Carving",
+    "price": 900,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "Miniature stone sculpture inspired by Khajuraho temples.",
+    "category": "craft"
+  },
+  {
+    "id": "mp_bedaghat_marble_07",
+    "name": "Marble Decorative Plate",
+    "price": 500,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "Handcrafted from Jabalpur's Bhedaghat marble.",
+    "category": "craft"
+  },
+  {
+    "id": "mp_namkeen_mix_08",
+    "name": "Indore Namkeen Mix",
+    "price": 150,
+    "state": "Madhya Pradesh",
+    "image": "",
+    "description": "Spicy Indori namkeen snack mix.",
+    "category": "local food"
+  },
+  {
+    "id": "mh_kolhapuri_chappal_01",
+    "name": "Kolhapuri Leather Chappals",
+    "price": 900,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Hand-stitched traditional Kolhapuri leather footwear.",
+    "category": "craft"
+  },
+  {
+    "id": "mh_pune_masala_02",
+    "name": "Pune Special Masala",
+    "price": 180,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Authentic Maharashtrian spice blend for everyday cooking.",
+    "category": "local food"
+  },
+  {
+    "id": "mh_ambemohar_rice_03",
+    "name": "Ambemohar Aromatic Rice",
+    "price": 250,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Traditional fragrant rice variety grown in Mulshi Valley.",
+    "category": "local food"
+  },
+  {
+    "id": "mh_warli_art_04",
+    "name": "Warli Tribal Art Painting",
+    "price": 650,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Handmade tribal painting created by indigenous Warli artists.",
+    "category": "craft"
+  },
+  {
+    "id": "mh_kandi_pedha_05",
+    "name": "Satara Kandi Pedha",
+    "price": 300,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Famous sweet delicacy made with thickened milk.",
+    "category": "local food"
+  },
+  {
+    "id": "mh_strawberry_jam_06",
+    "name": "Mahabaleshwar Strawberry Jam",
+    "price": 200,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Fresh and natural jam made from Mahabaleshwar strawberries.",
+    "category": "local food"
+  },
+  {
+    "id": "mh_bamboo_craft_07",
+    "name": "Vidarbha Bamboo Craft Basket",
+    "price": 450,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Handwoven bamboo basket crafted by rural artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "mh_nashik_wine_08",
+    "name": "Premium Nashik Grape Wine",
+    "price": 700,
+    "state": "Maharashtra",
+    "image": "",
+    "description": "Authentic vineyard-produced grape wine from Nashik Valley.",
+    "category": "local food"
+  },
+  {
+    "id": "mn_black_rice_01",
+    "name": "Manipuri Black Rice (Chak-Hao)",
+    "price": 240,
+    "state": "Manipur",
+    "image": "",
+    "description": "Organic aromatic black rice used in desserts and traditional meals.",
+    "category": "local food"
+  },
+  {
+    "id": "mn_moirang_phee_02",
+    "name": "Moirang Phee Handwoven Cloth",
+    "price": 950,
+    "state": "Manipur",
+    "image": "",
+    "description": "Traditional textile featuring unique angular designs.",
+    "category": "handloom"
+  },
+  {
+    "id": "mn_bamboo_craft_03",
+    "name": "Handcrafted Bamboo Basket",
+    "price": 350,
+    "state": "Manipur",
+    "image": "",
+    "description": "Eco-friendly bamboo craft handmade by rural artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "mn_ukhrul_lemongrass_oil_04",
+    "name": "Ukhrul Lemongrass Essential Oil",
+    "price": 220,
+    "state": "Manipur",
+    "image": "",
+    "description": "Aromatic essential oil extracted from Ukhrul-grown lemongrass.",
+    "category": "local product"
+  },
+  {
+    "id": "mn_earthen_pottery_05",
+    "name": "Longpi Black Pottery Bowl",
+    "price": 600,
+    "state": "Manipur",
+    "image": "",
+    "description": "Traditional Longpi pottery made without a potter's wheel.",
+    "category": "craft"
+  },
+  {
+    "id": "mn_thang_ta_souvenir_06",
+    "name": "Thang-Ta Martial Art Souvenir",
+    "price": 450,
+    "state": "Manipur",
+    "image": "",
+    "description": "Decorative miniature representing the Manipuri martial art.",
+    "category": "craft"
+  },
+  {
+    "id": "mn_organic_tea_07",
+    "name": "Manipur Organic Green Tea",
+    "price": 180,
+    "state": "Manipur",
+    "image": "",
+    "description": "Pure and aromatic tea handpicked from hill regions.",
+    "category": "local food"
+  },
+  {
+    "id": "mn_handloom_shawl_08",
+    "name": "Traditional Manipuri Handloom Shawl",
+    "price": 700,
+    "state": "Manipur",
+    "image": "",
+    "description": "Soft, beautifully woven shawl made in tribal weaving styles.",
+    "category": "handloom"
+  },
+  {
+    "id": "ml_lacquer_art_01",
+    "name": "Meghalaya Lacquer Bamboo Art",
+    "price": 350,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Handcrafted lacquer-coated bamboo decor made by Khasi artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "ml_jadoh_mix_02",
+    "name": "Jadoh Spice Mix",
+    "price": 160,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Traditional spice blend used to prepare Meghalaya’s famous Jadoh rice.",
+    "category": "local food"
+  },
+  {
+    "id": "ml_khasi_shawl_03",
+    "name": "Khasi Handwoven Shawl",
+    "price": 850,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Warm, soft shawl traditionally woven by Khasi women.",
+    "category": "handloom"
+  },
+  {
+    "id": "ml_bamboo_craft_04",
+    "name": "Decorative Bamboo Basket",
+    "price": 300,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Eco-friendly basket crafted by rural artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "ml_orchid_tea_05",
+    "name": "Wild Orchid Herbal Tea",
+    "price": 220,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Aromatic herbal tea made from Meghalaya’s wild orchids.",
+    "category": "local food"
+  },
+  {
+    "id": "ml_pinewood_souvenir_06",
+    "name": "Carved Pinewood Souvenir",
+    "price": 500,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Hand-carved decorative piece made from Meghalaya pinewood.",
+    "category": "craft"
+  },
+  {
+    "id": "ml_spice_pack_07",
+    "name": "Khasi Traditional Spice Pack",
+    "price": 180,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Mixture of local herbs and spices used in Khasi cuisine.",
+    "category": "local food"
+  },
+  {
+    "id": "ml_jainitia_cloth_08",
+    "name": "Jaintia Tribal Woven Cloth",
+    "price": 950,
+    "state": "Meghalaya",
+    "image": "",
+    "description": "Traditional woven cloth featuring Jaintia tribal patterns.",
+    "category": "handloom"
+  },
+  {
+    "id": "mz_bamboo_basket_01",
+    "name": "Traditional Bamboo Basket",
+    "price": 280,
+    "state": "Mizoram",
+    "image": "",
+    "description": "Handwoven bamboo basket crafted by Mizo artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "mz_mizo_shawl_02",
+    "name": "Mizo Tribal Shawl",
+    "price": 950,
+    "state": "Mizoram",
+    "image": "",
+    "description": "Traditional Mizo shawl made with vibrant tribal patterns.",
+    "category": "handloom"
+  },
+  {
+    "id": "mz_bai_mix_03",
+    "name": "Bai Curry Mix",
+    "price": 160,
+    "state": "Mizoram",
+    "image": "",
+    "description": "Spice blend used for preparing Mizoram’s signature Bai dish.",
+    "category": "local food"
+  },
+  {
+    "id": "mz_bamboo_mug_04",
+    "name": "Eco-friendly Bamboo Mug",
+    "price": 350,
+    "state": "Mizoram",
+    "image": "",
+    "description": "Hand-carved bamboo mug made from local bamboo varieties.",
+    "category": "craft"
+  },
+  {
+    "id": "mz_herbal_tea_05",
+    "name": "Mizo Herbal Tea",
+    "price": 220,
+    "state": "Mizoram",
+    "image": "",
+    "description": "A soothing tea blend made from Mizoram’s hill herbs.",
+    "category": "local food"
+  },
+  {
+    "id": "mz_puan_textile_06",
+    "name": "Puan Mizo Textile Cloth",
+    "price": 890,
+    "state": "Mizoram",
+    "image": "",
+    "description": "A traditional Mizo cloth with handwoven designs.",
+    "category": "textile"
+  },
+  {
+    "id": "mz_bamboo_art_07",
+    "name": "Decorative Bamboo Wall Art",
+    "price": 420,
+    "state": "Mizoram",
+    "image": "",
+    "description": "Home-decor bamboo artwork inspired by Mizo culture.",
+    "category": "craft"
+  },
+  {
+    "id": "mz_rice_beer_08",
+    "name": "Mizo Rice Beer Starter Mix",
+    "price": 180,
+    "state": "Mizoram",
+    "image": "",
+    "description": "Traditional yeast starter used for brewing ‘Zu’, the Mizo rice beer.",
+    "category": "local food"
+  },
+  {
+    "id": "ng_naga_shawl_01",
+    "name": "Handwoven Naga Shawl",
+    "price": 1450,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Traditional Naga warrior shawl featuring symbolic tribal patterns.",
+    "category": "handloom"
+  },
+  {
+    "id": "ng_bamboo_cup_02",
+    "name": "Bamboo Eco Cup",
+    "price": 250,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Cup carved from organic bamboo sourced from Nagaland forests.",
+    "category": "craft"
+  },
+  {
+    "id": "ng_axone_paste_03",
+    "name": "Axone (Fermented Soybean) Paste",
+    "price": 180,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Traditional fermented soybean paste used in Naga cuisine.",
+    "category": "local food"
+  },
+  {
+    "id": "ng_bamboo_basket_04",
+    "name": "Traditional Naga Bamboo Basket",
+    "price": 320,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Handmade bamboo basket used for daily tribal activities.",
+    "category": "craft"
+  },
+  {
+    "id": "ng_hornbill_art_05",
+    "name": "Hornbill Wooden Sculpture",
+    "price": 850,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Carved hornbill statue representing Nagaland’s iconic symbol.",
+    "category": "craft"
+  },
+  {
+    "id": "ng_naga_beads_06",
+    "name": "Naga Tribal Bead Necklace",
+    "price": 420,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Colorful beadwork necklace handcrafted by Naga tribes.",
+    "category": "textile"
+  },
+  {
+    "id": "ng_rice_beer_mix_07",
+    "name": "Naga Rice Beer Starter Pack",
+    "price": 200,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Yeast starter used to prepare traditional Naga rice beer.",
+    "category": "local food"
+  },
+  {
+    "id": "ng_sword_artifact_08",
+    "name": "Traditional Naga Dao (Sword) Replica",
+    "price": 1100,
+    "state": "Nagaland",
+    "image": "",
+    "description": "Decorative wooden dao inspired by Naga warrior culture.",
+    "category": "craft"
+  },
+  {
+    "id": "od_pattachitra_painting_01",
+    "name": "Pattachitra Painting",
+    "price": 1800,
+    "state": "Odisha",
+    "image": "",
+    "description": "Traditional hand-painted Pattachitra artwork from Raghurajpur.",
+    "category": "craft"
+  },
+  {
+    "id": "od_sambalpuri_saree_02",
+    "name": "Sambalpuri Ikat Saree",
+    "price": 3500,
+    "state": "Odisha",
+    "image": "",
+    "description": "Handwoven ikat saree known for geometric tribal designs.",
+    "category": "handloom"
+  },
+  {
+    "id": "od_dokra_figurine_03",
+    "name": "Dokra Brass Figurine",
+    "price": 950,
+    "state": "Odisha",
+    "image": "",
+    "description": "Traditional bell metal handicraft made by tribal artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "od_stone_carving_04",
+    "name": "Konark Stone Carving",
+    "price": 1250,
+    "state": "Odisha",
+    "image": "",
+    "description": "Hand-carved stone sculpture inspired by Konark architecture.",
+    "category": "craft"
+  },
+  {
+    "id": "od_silver_filgree_05",
+    "name": "Cuttack Silver Filigree Ornament",
+    "price": 1450,
+    "state": "Odisha",
+    "image": "",
+    "description": "Intricately handcrafted silver filigree jewelry.",
+    "category": "textile"
+  },
+  {
+    "id": "od_palm_leaf_box_06",
+    "name": "Palm Leaf Engraved Box",
+    "price": 550,
+    "state": "Odisha",
+    "image": "",
+    "description": "Eco-friendly palm leaf artwork box used for gifting.",
+    "category": "craft"
+  },
+  {
+    "id": "od_tribal_beads_07",
+    "name": "Odisha Tribal Bead Necklace",
+    "price": 300,
+    "state": "Odisha",
+    "image": "",
+    "description": "Traditional necklace made by Odisha’s tribal artisans.",
+    "category": "textile"
+  },
+  {
+    "id": "od_gopalpur_towel_08",
+    "name": "Gopalpur Handloom Towel",
+    "price": 280,
+    "state": "Odisha",
+    "image": "",
+    "description": "Soft handwoven towel crafted using age-old weaving traditions.",
+    "category": "handloom"
+  },
+  {
+    "id": "pb_phulkari_dupatta_01",
+    "name": "Traditional Phulkari Dupatta",
+    "price": 1500,
+    "state": "Punjab",
+    "image": "",
+    "description": "Hand-embroidered Phulkari dupatta with vibrant floral motifs.",
+    "category": "handloom"
+  },
+  {
+    "id": "pb_jutti_02",
+    "name": "Punjabi Jutti",
+    "price": 850,
+    "state": "Punjab",
+    "image": "",
+    "description": "Handcrafted leather jutti popular for weddings.",
+    "category": "craft"
+  },
+  {
+    "id": "pb_woolen_shawl_03",
+    "name": "Amritsari Woolen Shawl",
+    "price": 1100,
+    "state": "Punjab",
+    "image": "",
+    "description": "Soft winter shawl woven by Punjabi artisans.",
+    "category": "textile"
+  },
+  {
+    "id": "pb_patiala_salwar_04",
+    "name": "Patiala Salwar Set",
+    "price": 900,
+    "state": "Punjab",
+    "image": "",
+    "description": "Comfortable and stylish Patiala bottom wear.",
+    "category": "textile"
+  },
+  {
+    "id": "pb_wooden_kitchenware_05",
+    "name": "Handcrafted Wooden Kitchenware",
+    "price": 500,
+    "state": "Punjab",
+    "image": "",
+    "description": "Durable handcrafted spoons and bowls made from local wood.",
+    "category": "craft"
+  },
+  {
+    "id": "pb_lassi_glass_set_06",
+    "name": "Punjabi Steel Lassi Glass Set",
+    "price": 450,
+    "state": "Punjab",
+    "image": "",
+    "description": "Traditional stainless steel glasses used for lassi.",
+    "category": "craft"
+  },
+  {
+    "id": "pb_turban_cloth_07",
+    "name": "Sikh Turban (Paghri) Cloth",
+    "price": 350,
+    "state": "Punjab",
+    "image": "",
+    "description": "High-quality cotton cloth used for turbans.",
+    "category": "textile"
+  },
+  {
+    "id": "pb_spice_mix_08",
+    "name": "Amritsari Spice Mix",
+    "price": 250,
+    "state": "Punjab",
+    "image": "",
+    "description": "Authentic Punjabi spice mix for chole and curries.",
+    "category": "craft"
+  },
+  {
+    "id": "rj_block_print_saree_01",
+    "name": "Jaipur Block Print Saree",
+    "price": 1400,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Hand-block printed cotton saree crafted by Jaipur artisans.",
+    "category": "handloom"
+  },
+  {
+    "id": "rj_blue_pottery_02",
+    "name": "Blue Pottery Vase",
+    "price": 950,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Traditional Jaipur blue pottery crafted with natural dyes.",
+    "category": "craft"
+  },
+  {
+    "id": "rj_mojari_03",
+    "name": "Rajasthani Mojari",
+    "price": 750,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Hand-stitched leather mojari footwear popular across Rajasthan.",
+    "category": "craft"
+  },
+  {
+    "id": "rj_bandhani_dupatta_04",
+    "name": "Bandhani Dupatta",
+    "price": 600,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Tie-dye style dupatta from Jodhpur and Jaipur.",
+    "category": "textile"
+  },
+  {
+    "id": "rj_gota_jewellery_05",
+    "name": "Gota Patti Jewellery Set",
+    "price": 500,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Handcrafted jewelry using traditional Gota ribbons.",
+    "category": "craft"
+  },
+  {
+    "id": "rj_lac_bangles_06",
+    "name": "Lac Bangles Set",
+    "price": 350,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Colorful handmade bangles crafted from lac.",
+    "category": "craft"
+  },
+  {
+    "id": "rj_khes_shawl_07",
+    "name": "Rajasthani Khes Shawl",
+    "price": 850,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Warm, lightweight shawl woven with traditional patterns.",
+    "category": "textile"
+  },
+  {
+    "id": "rj_spice_mix_08",
+    "name": "Rajasthani Spice Mix",
+    "price": 250,
+    "state": "Rajasthan",
+    "image": "",
+    "description": "Authentic spice blend used for Laal Maas and curries.",
+    "category": "craft"
+  },
+  {
+    "id": "sk_woolen_shawl_01",
+    "name": "Handwoven Woolen Shawl",
+    "price": 850,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Warm woolen shawl woven by local Sikkimese artisans.",
+    "category": "handloom"
+  },
+  {
+    "id": "sk_bamboo_craft_02",
+    "name": "Bamboo Craft Basket",
+    "price": 450,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Eco-friendly handcrafted bamboo basket.",
+    "category": "craft"
+  },
+  {
+    "id": "sk_sikkim_tea_03",
+    "name": "Premium Sikkim Tea",
+    "price": 320,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Organic tea grown in the Temi Tea Garden.",
+    "category": "textile"
+  },
+  {
+    "id": "sk_thangka_art_04",
+    "name": "Thangka Painting",
+    "price": 1500,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Traditional Buddhist Thangka artwork.",
+    "category": "craft"
+  },
+  {
+    "id": "sk_wool_hat_05",
+    "name": "Handmade Woolen Hat",
+    "price": 350,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Warm knitted hat made by local women.",
+    "category": "handloom"
+  },
+  {
+    "id": "sk_local_spices_06",
+    "name": "Sikkim Himalaya Spice Mix",
+    "price": 275,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Authentic spice blend from Himalayan herbs.",
+    "category": "craft"
+  },
+  {
+    "id": "sk_traditional_jewellery_07",
+    "name": "Traditional Sikkimese Jewelry",
+    "price": 900,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Handcrafted jewelry inspired by local tribal culture.",
+    "category": "craft"
+  },
+  {
+    "id": "sk_woven_table_runner_08",
+    "name": "Woven Table Runner",
+    "price": 480,
+    "state": "Sikkim",
+    "image": "",
+    "description": "Colorful table runner woven with local patterns.",
+    "category": "handloom"
+  },
+  {
+    "id": "tn_kanchipuram_silk_01",
+    "name": "Kanchipuram Silk Saree",
+    "price": 7500,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Premium handwoven Kanchipuram silk saree.",
+    "category": "handloom"
+  },
+  {
+    "id": "tn_tanjore_painting_02",
+    "name": "Tanjore Painting",
+    "price": 3200,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Traditional artwork made with gold foil and vibrant colors.",
+    "category": "craft"
+  },
+  {
+    "id": "tn_bronze_idol_03",
+    "name": "Bronze Shiva Idol",
+    "price": 2500,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Handcrafted bronze idol representing Chola-style sculpture.",
+    "category": "craft"
+  },
+  {
+    "id": "tn_madurai_jigarthanda_mix_04",
+    "name": "Madurai Jigarthanda Mix",
+    "price": 450,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Authentic mix to prepare Madurai's famous Jigarthanda drink.",
+    "category": "textile"
+  },
+  {
+    "id": "tn_coconut_shell_art_05",
+    "name": "Coconut Shell Handicraft",
+    "price": 350,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Eco-friendly craft made using polished coconut shells.",
+    "category": "craft"
+  },
+  {
+    "id": "tn_temple_brass_lamp_06",
+    "name": "Temple Brass Lamp",
+    "price": 1100,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Traditional brass lamp used in temples and homes.",
+    "category": "craft"
+  },
+  {
+    "id": "tn_kumbakonam_filter_coffee_07",
+    "name": "Kumbakonam Filter Coffee Powder",
+    "price": 300,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Premium aromatic coffee powder from Kumbakonam.",
+    "category": "textile"
+  },
+  {
+    "id": "tn_wooden_toys_chennapatna_08",
+    "name": "Chennapatna Wooden Toys",
+    "price": 550,
+    "state": "Tamil Nadu",
+    "image": "",
+    "description": "Handmade lacquer wooden toys crafted by local artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "tg_pochampally_saree_01",
+    "name": "Pochampally Ikat Saree",
+    "price": 4800,
+    "state": "Telangana",
+    "image": "",
+    "description": "Handwoven Ikat saree made using traditional tie-dye technique.",
+    "category": "handloom"
+  },
+  {
+    "id": "tg_bidri_art_02",
+    "name": "Bidri Metal Craft",
+    "price": 2500,
+    "state": "Telangana",
+    "image": "",
+    "description": "Decorative black metal art with intricate silver inlay patterns.",
+    "category": "craft"
+  },
+  {
+    "id": "tg_haleem_mix_03",
+    "name": "Hyderabadi Haleem Mix",
+    "price": 450,
+    "state": "Telangana",
+    "image": "",
+    "description": "Instant mix to prepare traditional Hyderabadi haleem.",
+    "category": "textile"
+  },
+  {
+    "id": "tg_lac_bangles_04",
+    "name": "Hyderabad Lac Bangles",
+    "price": 300,
+    "state": "Telangana",
+    "image": "",
+    "description": "Handmade colorful lac bangles from Laad Bazaar.",
+    "category": "craft"
+  },
+  {
+    "id": "tg_irani_chai_05",
+    "name": "Irani Chai Premix",
+    "price": 200,
+    "state": "Telangana",
+    "image": "",
+    "description": "Authentic Irani chai premix.",
+    "category": "textile"
+  },
+  {
+    "id": "tg_pearls_06",
+    "name": "Hyderabad Real Pearls",
+    "price": 1500,
+    "state": "Telangana",
+    "image": "",
+    "description": "Famous Basheerbagh and Charminar pearls set.",
+    "category": "craft"
+  },
+  {
+    "id": "tg_nirmal_painting_07",
+    "name": "Nirmal Painting",
+    "price": 3200,
+    "state": "Telangana",
+    "image": "",
+    "description": "Traditional hand-painted artwork from the Nirmal region.",
+    "category": "craft"
+  },
+  {
+    "id": "tg_osmania_biscuits_08",
+    "name": "Osmania Biscuits Pack",
+    "price": 250,
+    "state": "Telangana",
+    "image": "",
+    "description": "Famous bakery biscuit from Hyderabad.",
+    "category": "textile"
+  },
+  {
+    "id": "tp_bamboo_bottle_01",
+    "name": "Eco-Friendly Bamboo Bottle",
+    "price": 350,
+    "state": "Tripura",
+    "image": "",
+    "description": "Handcrafted bamboo water bottle made by tribal artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "tp_tribal_bamboo_basket_02",
+    "name": "Tribal Bamboo Basket",
+    "price": 280,
+    "state": "Tripura",
+    "image": "",
+    "description": "Traditional bamboo basket woven by Tripuri communities.",
+    "category": "craft"
+  },
+  {
+    "id": "tp_handwoven_risa_03",
+    "name": "Handwoven Risa Cloth",
+    "price": 450,
+    "state": "Tripura",
+    "image": "",
+    "description": "Traditional tribal cloth worn by Tripuri women.",
+    "category": "handloom"
+  },
+  {
+    "id": "tp_mud_art_04",
+    "name": "Tripura Mud Artwork",
+    "price": 650,
+    "state": "Tripura",
+    "image": "",
+    "description": "Handcrafted mud murals and figurines.",
+    "category": "craft"
+  },
+  {
+    "id": "tp_organic_orange_jam_05",
+    "name": "Organic Jampui Orange Jam",
+    "price": 220,
+    "state": "Tripura",
+    "image": "",
+    "description": "Jam made from fresh Jampui Hills oranges.",
+    "category": "textile"
+  },
+  {
+    "id": "tp_bamboo_shoot_pickles_06",
+    "name": "Bamboo Shoot Pickle",
+    "price": 150,
+    "state": "Tripura",
+    "image": "",
+    "description": "Authentic Bamboo shoot pickle popular in tribal cuisine.",
+    "category": "textile"
+  },
+  {
+    "id": "tp_tripuri_necklace_07",
+    "name": "Traditional Tripuri Necklace",
+    "price": 350,
+    "state": "Tripura",
+    "image": "",
+    "description": "Colorful bead necklace worn during festivals.",
+    "category": "handloom"
+  },
+  {
+    "id": "tp_bamboo_lamp_08",
+    "name": "Handcrafted Bamboo Lamp",
+    "price": 900,
+    "state": "Tripura",
+    "image": "",
+    "description": "Elegant bamboo lamp ideal for home decor.",
+    "category": "craft"
+  },
+  {
+    "id": "up_chikankari_kurti_01",
+    "name": "Handmade Lucknow Chikankari Kurti",
+    "price": 850,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Authentic chikankari embroidery handcrafted by Lucknow artisans.",
+    "category": "handloom"
+  },
+  {
+    "id": "up_banarasi_silk_saree_02",
+    "name": "Banarasi Silk Saree",
+    "price": 3500,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Premium Banarasi silk saree woven with gold zari.",
+    "category": "handloom"
+  },
+  {
+    "id": "up_brass_art_moradabad_03",
+    "name": "Moradabad Brass Handicraft",
+    "price": 650,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Artistic brass showpiece crafted in the Brass City.",
+    "category": "craft"
+  },
+  {
+    "id": "up_ittra_perfume_04",
+    "name": "Kannauj Natural Ittra Perfume",
+    "price": 1200,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Traditional fragrance distilled using ancient methods.",
+    "category": "craft"
+  },
+  {
+    "id": "up_wooden_toys_05",
+    "name": "Varanasi Wooden Toys",
+    "price": 300,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Eco-friendly hand-carved wooden toys.",
+    "category": "craft"
+  },
+  {
+    "id": "up_peetha_sweets_06",
+    "name": "Agra Petha Gift Box",
+    "price": 220,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Famous sweet made from ash gourd and rose essence.",
+    "category": "textile"
+  },
+  {
+    "id": "up_musical_instruments_07",
+    "name": "Traditional Tabla Set",
+    "price": 1800,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Handcrafted tabla drums made by specialists from UP.",
+    "category": "craft"
+  },
+  {
+    "id": "up_lucknowi_scarf_08",
+    "name": "Lucknowi Hand Embroidered Scarf",
+    "price": 450,
+    "state": "Uttar Pradesh",
+    "image": "",
+    "description": "Soft cotton scarf with delicate needlework.",
+    "category": "handloom"
+  },
+  {
+    "id": "uk_woolen_shawl_01",
+    "name": "Handwoven Woolen Shawl",
+    "price": 850,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Warm Pahadi shawl woven by local artisans.",
+    "category": "handloom"
+  },
+  {
+    "id": "uk_ringaal_craft_02",
+    "name": "Ringaal Bamboo Basket",
+    "price": 300,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Eco-friendly handcrafted baskets from local bamboo.",
+    "category": "craft"
+  },
+  {
+    "id": "uk_copperware_03",
+    "name": "Traditional Copper Utensils",
+    "price": 950,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Hand-beaten copperware used for Pahadi cooking.",
+    "category": "craft"
+  },
+  {
+    "id": "uk_organic_honey_04",
+    "name": "Organic Himalayan Honey",
+    "price": 450,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Pure honey collected from mountain beekeepers.",
+    "category": "textile"
+  },
+  {
+    "id": "uk_pahadi_mandua_flour_05",
+    "name": "Mandua (Ragi) Flour Pack",
+    "price": 120,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Organic mountain millet flour rich in minerals.",
+    "category": "craft"
+  },
+  {
+    "id": "uk_jams_preserves_06",
+    "name": "Pahadi Fruit Preserve",
+    "price": 220,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Made from local fruits like plum, apricot, and apple.",
+    "category": "craft"
+  },
+  {
+    "id": "uk_babool_soap_07",
+    "name": "Herbal Mountain Soap",
+    "price": 150,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Handmade herbal soaps using local plants.",
+    "category": "textile"
+  },
+  {
+    "id": "uk_woolen_cap_08",
+    "name": "Traditional Pahadi Cap",
+    "price": 350,
+    "state": "Uttarakhand",
+    "image": "",
+    "description": "Colorful handwoven cap worn by Himalayan locals.",
+    "category": "handloom"
+  },
+  {
+    "id": "wb_kantha_quilt_01",
+    "name": "Kantha Stitch Quilt",
+    "price": 1800,
+    "state": "West Bengal",
+    "image": "",
+    "description": "Traditional hand-stitched quilt made by rural women.",
+    "category": "handloom"
+  },
+  {
+    "id": "wb_terracotta_horse_02",
+    "name": "Bishnupur Terracotta Horse",
+    "price": 750,
+    "state": "West Bengal",
+    "image": "",
+    "description": "Iconic terracotta craft representing Bankura heritage.",
+    "category": "craft"
+  },
+  {
+    "id": "wb_muslin_saree_03",
+    "name": "Pure Muslin Saree",
+    "price": 3200,
+    "state": "West Bengal",
+    "image": "",
+    "description": "Ultra-soft handwoven muslin saree known globally.",
+    "category": "textile"
+  },
+  {
+    "id": "wb_shantiniketan_leather_04",
+    "name": "Shantiniketan Leather Bag",
+    "price": 900,
+    "state": "West Bengal",
+    "image": "",
+    "description": "Hand-painted leather bag made by Shantiniketan artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "wb_dokra_art_05",
+    "name": "Dokra Metal Craft",
+    "price": 850,
+    "state": "West Bengal",
+    "image": "",
+    "description": "Ancient lost-wax metal craft practiced by tribal artisans.",
+    "category": "craft"
+  },
+  {
+    "id": "wb_jamdani_saree_06",
+    "name": "Jamdani Cotton Saree",
+    "price": 2500,
+    "state": "West Bengal",
+    "image": "",
+    "description": "Exquisite saree featuring intricate motifs and weaving.",
+    "category": "handloom"
+  },
+  {
+    "id": "wb_darjeeling_tea_07",
+    "name": "Darjeeling Black Tea Pack",
+    "price": 450,
+    "state": "West Bengal",
+    "image": "",
+    "description": "World-famous aromatic black tea from Darjeeling hills.",
+    "category": "textile"
+  },
+  {
+    "id": "wb_mishti_doi_pack_08",
+    "name": "Mishti Doi Jar",
+    "price": 180,
+    "state": "West Bengal",
+    "image": "",
+    "description": "Traditional sweet yoghurt of Bengal.",
+    "category": "craft"
+  }
+]
+

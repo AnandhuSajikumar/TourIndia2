@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* Leaflet map default styles */
+@import url('leaflet/dist/leaflet.css');
+
+@layer base {
+  html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+    background: radial-gradient(80% 80% at 20% 10%, rgba(0, 123, 131, 0.08), transparent),
+      radial-gradient(70% 80% at 80% 0%, rgba(14, 165, 233, 0.08), transparent),
+      #f4f7fb;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #0f172a;
+    overflow-y: scroll;
+  }
+
+  #root {
+    min-height: 100%;
+    display: flex;
+  }
+}
+
+@layer components {
+  .app-shell {
+    @apply flex-1 flex flex-col;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(236, 253, 245, 0.9));
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .app-header {
+    @apply sticky top-0 border-slate-200/70 bg-white/70;
+    z-index: 1200;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  }
+
+  .app-nav {
+    @apply flex items-center justify-between py-3;
+    gap: 1rem;
+  }
+
+  .app-nav .brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+  }
+
+  .app-nav .brand:hover {
+    transform: scale(1.05);
+  }
+
+  .brand-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .nav-links a {
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+
+  .nav-links a:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+    color: #667eea;
+    transform: translateY(-2px);
+  }
+
+  .state-select-wrapper {
+    display: flex;
+    align-items: center;
+    background: rgba(102, 126, 234, 0.08);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid rgba(102, 126, 234, 0.2);
+  }
+
+  .state-select-wrapper select {
+    border: none;
+    background: transparent;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .state-select {
+    min-width: 190px;
+  }
+
+  .account {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .app-main {
+    @apply flex-1 py-6;
+    overflow-y: auto;
+  }
+
+  .app-footer {
+    @apply bg-white/70;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .app-main::-webkit-scrollbar {
+    width: 8px;
+  }
+  .app-main::-webkit-scrollbar-thumb {
+    background: rgba(15, 118, 110, 0.35);
+    border-radius: 999px;
+  }
+  .app-main::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+@layer utilities {
+  .content-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .marketplace-page {
+    background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  }
+
+  .header-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .cart-section::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .cart-section::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 10px;
+  }
+
+  .cart-section::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  .sites-list::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .sites-list::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 10px;
+  }
+
+  .sites-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+}

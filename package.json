@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "chart.js": "^4.5.1",
+    "react-chartjs-2": "^5.3.1"
+  }
+}
