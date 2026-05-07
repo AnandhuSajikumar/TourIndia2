@@ -26,12 +26,12 @@ function App() {
     try {
       const raw = localStorage.getItem('user')
       return raw ? JSON.parse(raw) : null
-    } catch (e) { return null }
+    } catch { return null }
   })
 
   useEffect(() => {
     function onStorage() {
-      try { const raw = localStorage.getItem('user'); setUser(raw ? JSON.parse(raw) : null) } catch (e) { setUser(null) }
+      try { const raw = localStorage.getItem('user'); setUser(raw ? JSON.parse(raw) : null) } catch { setUser(null) }
     }
     window.addEventListener('storage', onStorage)
     return () => window.removeEventListener('storage', onStorage)
