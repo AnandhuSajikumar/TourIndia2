@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
     if (openai && process.env.GROQ_API_KEY) {
       // Use Groq API with Meta's Llama 3 model
       const completion = await openai.chat.completions.create({
-        model: 'llama3-8b-8192',
+        model: 'llama-3.1-8b-instant',
         messages: [
           { role: 'system', content: 'You are a helpful tourism assistant for Indian tourism. Answer questions about travel, culture, places to visit, and tourism in India. Be concise and informative.' },
           ...messages.slice(-10) // Last 10 messages for context
