@@ -907,6 +907,36 @@ router.get("/marketplace", async (req, res) => {
   res.json({ items: result });
 });
 
+
+// ---------- Demo Payment ----------
+router.post("/payment/create-order", (req, res) => {
+  const amount = Number(req.body?.amount);
+  const currency = req.body?.currency || "INR";
+  const items = Array.isArray(req.body?.items) ? req.body.items : [];
+
+  if (!Number.isFinite(amount) || amount <= 0) {
+    return res.status(400).json({ error: "A positive amount is required." });
+  }
+
+  res.json({
+    orderId: `order_${Date.now()}`,
+    amount,
+    currency,
+    items,
+    status: "created",
+  });
+});
+
+router.post("/payment/verify", (req, res) => {
+  const { orderId, paymentId, signature } = req.body || {};
+
+  if (!orderId || !paymentId || !signature) {
+    return res.status(400).json({ error: "orderId, paymentId, and signature are required." });
+  }
+
+  res.json({ success: true, orderId, paymentId, status: "paid" });
+});
+
 // ---------- Reviews ----------
 router.get("/sites/:id/reviews", async (req, res) => {
   const id = req.params.id;
