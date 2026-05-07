@@ -3,6 +3,15 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet'
 import { useEffect, useMemo, useState } from 'react'
 import { useTourismState } from '../state/StateContext.jsx'
 
+const currencyINR = new Intl.NumberFormat('en-IN')
+const formatMoney = (value) => (Number.isFinite(Number(value)) ? `₹${currencyINR.format(Math.round(Number(value)))}` : '—')
+const placeLabel = (category) => {
+  if (category === 'culture') return 'Historical & Cultural Place'
+  if (category === 'nature') return 'Tourist Nature Spot'
+  if (category === 'adventure') return 'Adventure Destination'
+  return 'Tourist Place'
+}
+
 export default function ExploreMap() {
   const { selected, states: stateList } = useTourismState()
   const [sites, setSites] = useState([])
@@ -42,6 +51,10 @@ export default function ExploreMap() {
     if (category === 'all') return sites
     return sites.filter((s) => s.category === category)
   }, [sites, category])
+
+  const guideSpotlight = selectedSite?.tourGuides?.length
+    ? selectedSite.tourGuides
+    : filtered[0]?.tourGuides || []
 
   function locate() {
     if (!navigator.geolocation) return alert('Geolocation not supported')
@@ -184,6 +197,9 @@ export default function ExploreMap() {
                       </div>
                     </div>
                     <p style={{ fontSize: '13px', color: '#555', marginTop: '5px' }}>{s.description}</p>
+                    <p style={{ fontSize: '12px', color: '#667085', marginTop: '4px', marginBottom: '4px' }}>
+                      {placeLabel(s.category)} · {s.entryFee?.label || 'Entry details on arrival'}
+                    </p>
                     <p style={{ fontSize: '12px', color: '#777', marginTop: '4px' }}>Status: <b>{statusFor(s).open ? 'Open' : 'Closed'}</b> · Crowd: <b>{statusFor(s).crowd}</b></p>
                   </div>
                 </Popup>
@@ -220,6 +236,37 @@ export default function ExploreMap() {
               <i className="bi bi-info-circle me-1"></i>
               Traffic and crowd levels are estimated for demo purposes.
             </p>
+          </div>
+
+          <div className="card border-0 shadow-sm" style={{ borderRadius: '16px', padding: '20px' }}>
+            <div className="d-flex align-items-center gap-2 mb-3">
+              <i className="bi bi-person-badge-fill text-primary"></i>
+              <h5 className="fw-bold mb-0">Tour Guides</h5>
+            </div>
+            {guideSpotlight.length ? (
+              <div className="d-flex flex-column gap-3">
+                {guideSpotlight.map((guide) => (
+                  <div key={guide.id} style={{ border: '1px solid #e2e8f0', borderRadius: '14px', padding: '14px', background: 'linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)' }}>
+                    <div className="fw-bold">{guide.name}</div>
+                    <div className="small text-muted mt-1">{guide.speciality}</div>
+                    <div className="small mt-2">
+                      <i className="bi bi-translate me-1"></i>
+                      {Array.isArray(guide.languages) ? guide.languages.join(', ') : 'English, Hindi'}
+                    </div>
+                    <div className="small mt-1">
+                      <i className="bi bi-award me-1"></i>
+                      {guide.experienceYears || 0}+ years experience
+                    </div>
+                    <div className="small mt-1 fw-semibold text-primary">
+                      <i className="bi bi-currency-rupee me-1"></i>
+                      {formatMoney(guide.priceINR)} / day
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="small text-muted">Select a place to see local guide recommendations.</div>
+            )}
           </div>
 
           <div className="sites-list" style={{ overflowY: 'auto', maxHeight: 'calc(100vh - 300px)', paddingRight: '8px' }}>
@@ -272,9 +319,20 @@ export default function ExploreMap() {
                       <span className="badge bg-primary bg-opacity-10 text-primary small">{s.category || 'General'}</span>
                     </div>
                   </div>
+                  <div className="small fw-semibold text-primary mb-2">{placeLabel(s.category)}</div>
                   <p className="text-muted small mb-3" style={{ fontSize: '13px', lineHeight: '1.5' }}>
                     {s.description?.length > 100 ? s.description.substring(0, 100) + '...' : s.description}
                   </p>
+                  <div className="small text-muted mb-2">
+                    <i className="bi bi-ticket-perforated me-1"></i>
+                    <b>Estimated entry:</b> {s.entryFee?.label || 'Check locally'}
+                  </div>
+                  {s.localSpecialities?.[0] ? (
+                    <div className="small text-muted mb-3">
+                      <i className="bi bi-bag-heart me-1"></i>
+                      <b>Local speciality:</b> {s.localSpecialities[0].name} · {formatMoney(s.localSpecialities[0].priceINR)}
+                    </div>
+                  ) : null}
                   <div className="d-flex gap-2">
                     <button 
                       onClick={() => {
@@ -354,6 +412,41 @@ export default function ExploreMap() {
                   <p style={{ color: '#444' }}>{selectedSite.history || 'No detailed history available.'}</p>
                 </section>
 
+                <section style={{ marginTop: '16px' }}>
+                  <h4 style={{ marginBottom: '8px' }}>Local Specialities</h4>
+                  {selectedSite.localSpecialities && selectedSite.localSpecialities.length ? (
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '12px' }}>
+                      {selectedSite.localSpecialities.map((item) => (
+                        <div key={item.id} style={{ border: '1px solid #e2e8f0', borderRadius: '14px', overflow: 'hidden', background: '#fff' }}>
+                          <div style={{ height: '120px', background: '#f1f5f9', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
+                            {item.image ? (
+                              <img
+                                src={item.image}
+                                alt={item.name}
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                onError={(e) => {
+                                  e.target.style.display = 'none'
+                                  if (e.target.nextSibling) e.target.nextSibling.style.display = 'flex'
+                                }}
+                              />
+                            ) : null}
+                            <div style={{ display: item.image ? 'none' : 'flex', alignItems: 'center', justifyContent: 'center', color: '#94a3b8', fontSize: '12px', textAlign: 'center', padding: '12px' }}>
+                              Local speciality
+                            </div>
+                          </div>
+                          <div style={{ padding: '12px' }}>
+                            <div className="fw-bold" style={{ fontSize: '14px' }}>{item.name}</div>
+                            <div className="small text-muted mt-1" style={{ lineHeight: '1.5' }}>{item.description}</div>
+                            <div className="small text-primary fw-semibold mt-2">{formatMoney(item.priceINR)}</div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p style={{ color: '#444' }}>No local specialities available right now.</p>
+                  )}
+                </section>
+
                 <section style={{ marginTop: '12px' }}>
                   <h4 style={{ marginBottom: '6px' }}>Famous Foods</h4>
                   {selectedSite.famousFoods && selectedSite.famousFoods.length ? (
@@ -372,8 +465,38 @@ export default function ExploreMap() {
               <aside style={{ borderLeft: '1px solid #eee', paddingLeft: '12px' }}>
                 <div style={{ marginBottom: '12px' }}>
                   <h4 style={{ marginBottom: '6px' }}>Quick Info</h4>
+                  <div>Type: <b>{placeLabel(selectedSite.category)}</b></div>
                   <div>Category: <b>{selectedSite.category || '—'}</b></div>
+                  <div>Entry Price: <b>{selectedSite.entryFee?.label || '—'}</b></div>
                   <div>Estimated Cost (per night): <b>{selectedSite.estimatedStayCost ? `₹${selectedSite.estimatedStayCost}` : '—'}</b></div>
+                </div>
+
+                <div style={{ marginBottom: '18px' }}>
+                  <h4 style={{ marginBottom: '8px' }}>Recommended Tour Guides</h4>
+                  {selectedSite.tourGuides?.length ? (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                      {selectedSite.tourGuides.map((guide) => (
+                        <div key={guide.id} style={{ border: '1px solid #e2e8f0', borderRadius: '12px', padding: '12px', background: '#f8fafc' }}>
+                          <div className="fw-bold" style={{ fontSize: '14px' }}>{guide.name}</div>
+                          <div className="small text-muted mt-1">{guide.speciality}</div>
+                          <div className="small mt-2">
+                            <i className="bi bi-translate me-1"></i>
+                            {Array.isArray(guide.languages) ? guide.languages.join(', ') : 'English, Hindi'}
+                          </div>
+                          <div className="small mt-1">
+                            <i className="bi bi-award me-1"></i>
+                            {guide.experienceYears || 0}+ years
+                          </div>
+                          <div className="small fw-semibold text-primary mt-1">
+                            <i className="bi bi-currency-rupee me-1"></i>
+                            {formatMoney(guide.priceINR)} / day
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="small text-muted">Guide details will appear here for selected places.</div>
+                  )}
                 </div>
 
                 <div>

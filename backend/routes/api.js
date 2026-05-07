@@ -50,11 +50,15 @@ async function writeJSON(key, file, data) {
 
 async function getSites({ decorate = false } = {}) {
   const data = await readJSON("sites", sitesFile, []);
-  return decorate ? decorateSites(data) : data;
+  if (!decorate) return data;
+
+  const products = await readJSON("products", productsFile, []);
+  return decorateSites(data, products);
 }
 
 async function getProducts() {
-  return readJSON("products", productsFile, []);
+  const products = await readJSON("products", productsFile, []);
+  return decorateProducts(products);
 }
 
 async function getReviews() {
@@ -95,26 +99,56 @@ const AVERAGE_SPEED_KMPH = 38;
 const MIN_TRAVEL_MINUTES = 20;
 const MAX_TRAVEL_VISIT_MINUTES = 9 * 60; // cap active sightseeing time per day
 
-function decorateSites(list) {
-  return Array.isArray(list) ? list.map(decorateSite) : [];
+function decorateSites(list, productCatalog = []) {
+  return Array.isArray(list) ? list.map((site) => decorateSite(site, productCatalog)) : [];
 }
 
-function decorateSite(site) {
+function decorateProducts(list) {
+  return Array.isArray(list) ? list.map(decorateProduct) : [];
+}
+
+function decorateProduct(product) {
+  if (!product) return product;
+
+  return {
+    ...product,
+    image: normalizeAssetPath(product.image),
+    category: product.category || "speciality",
+  };
+}
+
+function decorateSite(site, productCatalog = []) {
   if (!site) return site;
 
   const visitMinutes = estimateVisitMinutes(site);
   const famousFoods = buildFoodSuggestions(site);
   const stayOptions = buildStayOptions(site);
+  const localSpecialities = buildLocalSpecialities(site, productCatalog);
+  const tourGuides = buildTourGuides(site);
+  const entryFee = buildEntryFee(site);
 
   return {
     ...site,
+    image: normalizeAssetPath(site.image),
     visitMinutes,
     visitTime: site.visitTime || formatDuration(visitMinutes),
     famousFoods,
     hotels: stayOptions,
+    localSpecialities,
+    tourGuides,
+    entryFee,
     travelTime: site.travelTime || formatDuration(Math.max(45, Math.round(visitMinutes / 2))),
     travelTips: site.travelTips || "Carry reusable bottles, respect local customs, and keep the trail clean.",
   };
+}
+
+function normalizeAssetPath(value) {
+  if (typeof value !== "string") return "";
+
+  const trimmed = value.trim();
+  if (!trimmed) return "";
+  if (/^(https?:)?\/\//i.test(trimmed) || trimmed.startsWith("/")) return trimmed;
+  return `/${trimmed}`;
 }
 
 function estimateVisitMinutes(site) {
@@ -186,6 +220,81 @@ function buildStayOptions(site) {
     { name: `${baseName} Eco Lodge`, type: "Eco Lodge", priceINR: Math.round(stayCost * 1.1) },
     { name: `${site?.state || baseName} Heritage Homestay`, type: "Homestay", priceINR: Math.round(stayCost * 0.95) },
     { name: `${baseName} Riverside Camp`, type: "Camp", priceINR: Math.round(stayCost * 0.8) },
+  ];
+}
+
+function buildEntryFee(site) {
+  if (Number.isFinite(Number(site?.entryFee))) {
+    return {
+      amountINR: Math.max(0, Math.round(Number(site.entryFee))),
+      label: `From ₹${inrFormatter.format(Math.max(0, Math.round(Number(site.entryFee))))} per visitor`,
+    };
+  }
+
+  const category = String(site?.category || "").toLowerCase();
+  const amountINR =
+    category === "adventure" ? 180 :
+    category === "culture" ? 120 :
+    80;
+
+  return {
+    amountINR,
+    label: `From ₹${inrFormatter.format(amountINR)} per visitor`,
+  };
+}
+
+function buildLocalSpecialities(site, productCatalog = []) {
+  const matchingProducts = productCatalog
+    .filter((product) => (product.state || "").toLowerCase() === (site?.state || "").toLowerCase())
+    .slice(0, 3)
+    .map((product) => ({
+      id: product.id,
+      name: product.name,
+      description: product.description || "Locally loved speciality from regional artisans.",
+      priceINR: Number(product.price) || 0,
+      image: normalizeAssetPath(product.image),
+      type: product.category || "speciality",
+    }));
+
+  if (matchingProducts.length) {
+    return matchingProducts;
+  }
+
+  return buildFoodSuggestions(site).slice(0, 3).map((food, index) => ({
+    id: `${site?.id || "site"}-speciality-${index + 1}`,
+    name: food.name,
+    description: food.description,
+    priceINR: 120 + index * 80,
+    image: "",
+    type: "local speciality",
+  }));
+}
+
+function buildTourGuides(site) {
+  const firstWord = (site?.name || site?.state || "Heritage").split(" ")[0];
+  const category = String(site?.category || "").toLowerCase();
+  const guideTheme =
+    category === "adventure" ? "treks, safety briefings, and outdoor routes" :
+    category === "culture" ? "history walks, rituals, and local storytelling" :
+    "nature trails, photography spots, and eco experiences";
+
+  return [
+    {
+      id: `${site?.id || "site"}-guide-1`,
+      name: `${firstWord} Explorer Guide`,
+      languages: ["English", "Hindi"],
+      experienceYears: 5,
+      priceINR: 1500,
+      speciality: `Best for ${guideTheme}.`,
+    },
+    {
+      id: `${site?.id || "site"}-guide-2`,
+      name: `${site?.state || "Local"} Heritage Host`,
+      languages: ["English", "Hindi", "Local"],
+      experienceYears: 8,
+      priceINR: 2200,
+      speciality: "Great for families, culture seekers, and flexible custom day tours.",
+    },
   ];
 }
 

@@ -634,6 +634,10 @@ export default function Itinerary() {
                                 <b>Visit:</b> {site.visitDurationFormatted || site.visitTime} · <b>From previous:</b> {travelLabel}
                               </div>
                               <div className="small text-muted mb-2">
+                                <i className="bi bi-ticket-perforated me-1"></i>
+                                <b>Entry:</b> {site.entryFee?.label || 'Check locally'}
+                              </div>
+                              <div className="small text-muted mb-2">
                                 <i className="bi bi-calendar-event me-1"></i>
                                 <b>Schedule:</b> {site.arrivalTime} – {site.departureTime}
                               </div>
@@ -649,6 +653,18 @@ export default function Itinerary() {
                                 <div className="small mb-2">
                                   <i className="bi bi-building me-1"></i>
                                   <b>Stay nearby:</b> {site.hotels[0].name} · {site.hotels[0].type} · {formatMoney(site.hotels[0].priceINR)}
+                                </div>
+                              ) : null}
+                              {site.localSpecialities?.[0] ? (
+                                <div className="small mb-2">
+                                  <i className="bi bi-bag-heart me-1"></i>
+                                  <b>Buy local:</b> {site.localSpecialities[0].name} · {formatMoney(site.localSpecialities[0].priceINR)}
+                                </div>
+                              ) : null}
+                              {site.tourGuides?.[0] ? (
+                                <div className="small mb-2">
+                                  <i className="bi bi-person-badge me-1"></i>
+                                  <b>Guide:</b> {site.tourGuides[0].name} · {formatMoney(site.tourGuides[0].priceINR)}/day
                                 </div>
                               ) : null}
                               <div className="small text-muted">
