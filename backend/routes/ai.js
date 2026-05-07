@@ -3,21 +3,25 @@ import OpenAI from 'openai'
 
 const router = Router()
 
-// Initialize OpenAI client if API key is available
-const openai = process.env.OPENAI_API_KEY 
-  ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
+// Initialize OpenAI client pointing to Groq if API key is available
+const openai = process.env.GROQ_API_KEY
+  ? new OpenAI({
+    apiKey: process.env.GROQ_API_KEY,
+    baseURL: "https://api.groq.com/openai/v1"
+  })
   : null
 
 router.post('/', async (req, res) => {
   const { messages = [] } = req.body || {}
   const lastUser = [...messages].reverse().find((m) => m.role === 'user')
   const prompt = lastUser?.content || 'Hello'
-  
+
   try {
-    if (openai && process.env.OPENAI_API_KEY) {
-      // Use OpenAI API
+    // Check for the Groq key instead of OpenAI
+    if (openai && process.env.GROQ_API_KEY) {
+      // Use Groq API with Meta's Llama 3 model
       const completion = await openai.chat.completions.create({
-        model: 'gpt-3.5-turbo',
+        model: 'llama3-8b-8192',
         messages: [
           { role: 'system', content: 'You are a helpful tourism assistant for Indian tourism. Answer questions about travel, culture, places to visit, and tourism in India. Be concise and informative.' },
           ...messages.slice(-10) // Last 10 messages for context
@@ -30,7 +34,7 @@ router.post('/', async (req, res) => {
       // Fallback smart responses
       const lowerPrompt = prompt.toLowerCase()
       let reply = 'I can help you with Indian tourism information! '
-      
+
       if (lowerPrompt.includes('waterfall') || lowerPrompt.includes('nature')) {
         reply += 'India has amazing waterfalls like Dudhsagar in Goa, Athirappilly in Kerala, and Dassam Falls in Jharkhand. Would you like to know more?'
       } else if (lowerPrompt.includes('temple') || lowerPrompt.includes('culture')) {
@@ -46,7 +50,7 @@ router.post('/', async (req, res) => {
       } else {
         reply += 'Ask me about specific states, attractions, travel tips, or cultural experiences across India!'
       }
-      
+
       return res.json({ reply })
     }
   } catch (error) {
@@ -56,5 +60,3 @@ router.post('/', async (req, res) => {
 })
 
 export default router
-
-
