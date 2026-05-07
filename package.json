@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npm ci --prefix backend && npm ci --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm ci --prefix frontend && npm run build --prefix frontend",
     "start": "npm start --prefix backend"
   }
 }
